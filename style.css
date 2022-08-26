@@ -1,0 +1,85 @@
+body {
+    width: 1100px;
+    background: lightgoldenrodyellow;
+}
+
+header {
+    font-size: 14 px;
+    background-color: black;
+    color:white;
+}
+
+header a {
+    color: lightgray;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+header a:hover {
+    text-decoration: none;
+    font-size: 26px;
+    
+}
+
+nav {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+nav a {
+    background-color: lightgray;
+    color: grey;
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 20px 25px 30px 25px;
+    float: left;
+}
+
+nav a:hover {
+    font-size: 30px;
+    padding: 12px;
+    color: black;
+}
+
+header img {
+    width: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+main p {
+    font-size: 28px;
+    background-color: lightgray;
+    border: 10px double grey;
+    padding: 10px;
+}
+
+main img {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: left;
+    margin: 20px;
+}
+
+h1 img {
+    float: left;
+    width: 430px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 80px 0px 40px 0px;
+    text-align: center;
+}
+
+footer {
+    background:black;
+    color:white;
+}
